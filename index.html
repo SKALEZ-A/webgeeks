@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>WebGeeks Portfolio</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="nav-section">
+				<nav class="navbar navbar-expand-lg bg-light">
+					<div class="container-fluid">
+						<img src="./img/logo.png" alt="logo" class="webgeeks-logo" />
+						<a class="navbar-brand m-2" href="#"> WebGeeks </a>
+						<button
+							class="navbar-toggler"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarSupportedContent"
+							aria-controls="navbarSupportedContent"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav mb-2 mb-lg-0 main-nav">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#"
+										>Home</a
+									>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#about">About Us</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#contact">Contact Us</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+
+			<div class="first-section">
+				<img src="./img/avatar.png" alt="" class="avatar" />
+				<p class="header-content">
+					A team of passionate web designers and developers who learn, grow and
+					build great stuffs.
+				</p>
+			</div>
+
+			<div class="second-section">
+				<h2 class="team-header what" id="about">WHAT WE DO</h2>
+				<p class="desc">
+					We are a team of passionate developers and a full-service development
+					team that aims at building immersive user experience and we are
+					enthusiastic about what we do. Our team creates an exceptional
+					visualization and thought out functionality. We aim at driving your
+					business forward with strong products user interface.
+				</p>
+			</div>
+
+			<!-- // contact card -->
+			<h2 class="team-header">OUR TEAM</h2>
+			<div class="team-section">
+				<div class="face-card">
+					<img class="face-img" src="./img/skalez.png" alt="" />
+					<div class="details">
+						<p class="name">Adewuyi Adeolu</p>
+						<p class="email">
+							<i class="bi bi-envelope"></i> @holumacbeth@gmail.com
+						</p>
+						<p class="number">
+							<i class="bi bi-whatsapp"></i> +(234) 7019715413
+						</p>
+						<p class="twitter"><i class="bi bi-twitter"></i>@skalezDgreat</p>
+					</div>
+				</div>
+				<div class="face-card">
+					<div class="details">
+						<p class="name">Ayodimeji Odeleye</p>
+						<p class="email">
+							<i class="bi bi-envelope"></i> @odeleyeayo7@gmail.com
+						</p>
+						<p class="number">
+							<i class="bi bi-whatsapp"></i> +(234) 8147287524
+						</p>
+						<p class="twitter"><i class="bi bi-twitter"></i>@odeleyeayo7</p>
+					</div>
+					<img class="face-img" src="./img/samuel.png" alt="" />
+				</div>
+				<div class="face-card">
+					<img class="face-img" src="./img/selah.png" alt="" />
+					<div class="details">
+						<p class="name">Saleh Abdullahi</p>
+						<p class="email">
+							<i class="bi bi-envelope"></i> @Salehabdullahi018@gmail.com
+						</p>
+						<p class="number">
+							<i class="bi bi-whatsapp"></i> +(234) 8096062713
+						</p>
+						<p class="twitter"><i class="bi bi-twitter"></i>@Serleh_jr</p>
+					</div>
+				</div>
+			</div>
+			<!-- // Testimonials section -->
+			<div class="testimonials">
+				<p>Our Testimonials:</p>
+				<div class="quote-box">
+					<i class="bi bi-quote"></i>
+					<p>
+						I really recommend working with these guys, they are a very
+						enthusiastic and passionate team...
+					</p>
+					<p class="writer">~ Satoshi Nakomoto</p>
+				</div>
+				<div class="quote-box">
+					<i class="bi bi-quote"></i>
+					<p>
+						I really recommend working with these guys, they are a very
+						enthusiastic and passionate team...
+					</p>
+					<p class="writer">~ Bruce Wayne</p>
+				</div>
+				<div class="quote-box">
+					<i class="bi bi-quote"></i>
+					<p>
+						I really recommend working with these guys, they are a very
+						enthusiastic and passionate team...
+					</p>
+					<p class="writer">~ Nicola Tesla</p>
+				</div>
+			</div>
+
+			<!-- // Contact section -->
+			<div class="contact-section" id="contact">
+				<h1>INTERESTED IN WORKING WITH US?</h1>
+				<p>
+					Challenge us, we want to work with you to create the really cool
+					stuffs you have in mind
+				</p>
+				<div class="contact-form">
+					<h2 class="team-header">CONTACT US</h2>
+					<form action="" class="form-group">
+						<label for="Name">Name:</label>
+						<input
+							type="text"
+							placeholder="enter your name"
+							class="form-control"
+						/>
+						<label for="email">Email:</label>
+						<input
+							type="email"
+							placeholder="enter your email"
+							class="form-control"
+						/>
+						<label for="message">Message:</label>
+						<textarea
+							type="text"
+							placeholder="what we should know.."
+							class="form-control"
+							rows="4"
+						></textarea>
+						<button class="btn btn-secondary">SUBMIT</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<script src="./index.js"></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

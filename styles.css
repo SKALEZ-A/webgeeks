@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Lobster&family=Nunito:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jockey+One&family=Lobster&family=Montserrat:wght@500&family=Nunito:wght@600&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	/* width: 100%;  */
+}
+.navbar-toggle-icon {
+	font-weight: 700;
+}
+.webgeeks-logo {
+	padding: 0;
+	width: 60px;
+}
+.first-section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.header-content {
+	padding: 2em;
+	font-family: "Jockey One", sans-serif;
+	color: rgba(49, 49, 49, 0.981);
+}
+.avatar {
+	width: 400px;
+}
+.main-nav {
+	display: flex;
+	justify-content: end;
+}
+.face-card {
+	margin: 10px 0px;
+	border: 1px solid rgba(154, 154, 154, 0.366);
+	border-radius: 5px;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+}
+@media screen and (min-width: 800px) {
+	.team-section {
+		display: flex;
+		flex-direction: row;
+	}
+	.team-section h2 {
+		display: block;
+		margin: auto;
+	}
+	.face-card {
+		display: flex;
+		height: 450px;
+		margin: 0 auto;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.details {
+		margin: 0px;
+	}
+}
+.team-header {
+	margin-bottom: 2em;
+}
+.face-img {
+	width: 100px;
+	border-radius: 50%;
+	margin: 20px;
+}
+.face-card .details {
+	display: block;
+	padding: 0px 10px;
+	width: 100%;
+	font-size: 10px;
+	/* margin-left: 70px; */
+	border: 1px solid rgba(128, 128, 128, 0.417);
+	border-radius: 10px;
+	/* height: 250px; */
+}
+.face-card .name {
+	font-size: 20px;
+	font-weight: 600;
+	font-family: "Lobster", cursive;
+	text-decoration: underline;
+}
+.face-card {
+	font-size: 13px;
+}
+.team-header {
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	padding: 0px 10px;
+	font-size: 22px;
+	width: 300px;
+	margin: auto;
+	border: 1px solid grey;
+	background-color: rgb(29, 29, 29);
+	color: white;
+	border-radius: 10px;
+	margin-top: 3em;
+}
+.what {
+	margin-top: 3em;
+}
+.desc {
+	border: 1px solid rgba(128, 128, 128, 0.11);
+	border-radius: 10px;
+	margin: 20px;
+	font-size: 12px;
+	padding: 20px;
+	padding-top: 30px;
+	color: rgb(69, 69, 69);
+}
+.testimonials p:nth-child(1) {
+	font-family: "Jockey One", sans-serif;
+	color: green;
+	padding-top: 3em;
+	font-size: 25px;
+}
+.writer {
+	align-items: flex-end;
+	justify-content: end;
+	text-align: end;
+	font-family: "lobster", cursive;
+	font-size: 4px;
+}
+.testimonials p {
+	font-size: 12px;
+}
+.bi {
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+.testimonials {
+	padding: 2em;
+}
+.quote-box {
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	/* display: flex; */
+}
+.contact-section h1 {
+	font-size: 20px;
+}
+.contact-section p {
+	font-size: 13px;
+}
+.btn-secondary {
+	padding: 25px;
+	margin: 20px;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+	width: 90%;
+	margin-bottom: 4em;
+}
+.bi {
+	font-size: 15px;
+	padding: 0px 10px;
+}
+.email,
+.number,
+.twitter {
+	margin: 0;
+}
