@@ -24,6 +24,7 @@ body {
 }
 .header-content {
 	padding: 2em;
+	padding-top: 0px;
 	font-family: "Jockey One", sans-serif;
 	color: rgba(49, 49, 49, 0.981);
 }
